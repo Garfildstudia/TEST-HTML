@@ -356,3 +356,140 @@ header{
     margin: 12px 10px;
 }
 
+/*========== 4 sections for cards with articles===========*/
+.all_section_article{
+    width: 1440px;
+    height: 2344px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto 80px auto;
+    gap: 80px;
+}
+.section_article_wrapper{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 1252px;
+    height: 490px;
+    margin: 0 auto;
+}
+
+.wrapper_for_article_cards{
+    display: flex;
+}
+.article_cards_futured{
+    width: 300px;
+    height: 425px;
+    padding: 20px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+.image_and_title{
+    gap: 25px;
+    display: grid;
+}
+.image_on_card{
+    width: 260px;
+    height: 198px;
+    object-fit: cover;
+    border-radius: 13px;
+}
+/*========= footer about the author and views of the cards===========*/
+.reader{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 260px;
+    height: 57px;
+    margin-top: 80px;
+}
+.name_date_and_time{
+    width: 184px;
+    height: 46px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    display: flex;
+}
+.user_name{
+    width: 184px;
+    height: 45px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.date_and_time{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.icon_the_last_reader{
+    width: 57px;
+    height: 57px;
+    border-radius: 57px;
+    display: inline-block;
+}
+
+.featured_article_title{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.title_of_article{
+    width: 260px;
+    height: 25px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.image_and_link{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.article_cards_futured:hover{
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+
+.section_button_load_more{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
