@@ -1,0 +1,14 @@
+/*ADD FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/*============page layout & size==============
+all height = 4792px= 86 (header) + 4271px(main) + 435px(footer)
+
+
+4271px(main)= 814px(presentation) + 500px(browse_the_category) + 80px(gap) + 2344px(all_section_article)
++ 80px(gap)  + 453px(subscribe_section).
+
+all width =  1440px.
+ width of the section(wrapper_for_section) -  1252px
+===============================================*/
+
