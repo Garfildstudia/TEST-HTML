@@ -238,3 +238,121 @@ header{
     align-items: center;
 }
 
+/*========= Section browse_the_category h=500px =========*/
+.browse_the_category{
+    width: 1440px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin: 0 auto;
+    background: #EFF0F3;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 8px;
+    height: 350px;
+    gap: 37px;
+}
+.cards_style{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    /* For White Background */
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+
+.cards_style:hover{
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    /* For Colorize Background */
+    box-shadow: 4px 6px 13px 0 rgba(113, 113, 113, 0.25);
+}
+
+.icon_css{
+    width: 60px;
+    height: 120px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    margin: 65px 130px 95px 30px;
+}
+
+.icon_JS{
+    width: 118px;
+    height: 120px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    margin: 65px 72px 95px 30px;
+}
+
+.icon_Tailwind{
+    width: 96px;
+    height: 120px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    margin: 65px 94px 95px 30px;
+}
+
+.icon_VUE_JS{
+    width: 75px;
+    height: 120px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    margin: 65px 115px 95px 30px;
+}
+
+.icon_React_JS{
+    width: 98px;
+    height: 120px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    margin: 65px 92px 95px 30px;
+}
+.wrapper_for_icons{
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FFFFFE;
+
+}
+.css_logo{
+    margin: 12px 14px 11px 13px;
+}
+.tailwind_logo{
+    margin: 18px 10px;
+}
+.vue_Js_logo{
+    margin: 15px 12px 14px 12px;
+}
+.react_js_logo {
+    margin: 12px 10px;
+}
+
