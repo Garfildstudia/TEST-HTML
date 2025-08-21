@@ -548,6 +548,134 @@ header{
     line-height: normal;
 }
 
+/*========= Footer =========*/
+.footer{
+    height: 435px;
+    background: #E4E5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer_container{
+    width: 1249px;
+    height: 245px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.about_website{
+    display: flex;
+}
+.logo{
+    width: 193px;
+    margin: 0 89px 0 0;
+}
+.about_the_author{
+    width: 284px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icon{
+    width: 284px;
+    height: 24px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.footer_menu_title{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.footer_menu_list{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    display: grid;
+    gap: 20px;
+}
+
+.footer_menu{
+    width: 805px;
+    height: 245px;
+    display: flex;
+    align-items: flex-start;
+    gap: 95px;
+    margin-left: 160px;
+}
+.Category{
+    width: 129px;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.About_Me{
+    width: 113px;
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.Get_in_touch{
+    width: 159px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.Follow_Us{
+    width: 119px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+.footer_line{
+    width: 1250px;
+    height: 1px;
+    background: #C0C0C0;
+    margin-top: 50px;
+}
+
+.copyright{
+    width: 137px;
+    height: 70px;
+    margin: 26px 1208px 26px 95px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
 
 
 
