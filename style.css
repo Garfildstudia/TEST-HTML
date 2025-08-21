@@ -491,5 +491,63 @@ header{
     align-items: center;
 }
 
+/*========= Subscribe section =========*/
+
+.subscribe_section{
+    display: inline-flex;
+    padding: 58px 372px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #EFF0F3;
+}
+.subscribe_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.post{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.post_box_icon{
+    position: absolute;
+    align-self: self-end;
+}
+
+.image_post_box{
+    position: relative;
+    width: 80px;
+    height: 107px;
+}
+
+.subscribe_title{
+    width: 617px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subscribe_text{
+    width: 696px;
+    color: #C0C0C0;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
 
 
