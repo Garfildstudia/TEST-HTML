@@ -12,6 +12,10 @@ all width =  1440px.
  width of the section(wrapper_for_section) -  1252px
 ===============================================*/
 
+body{
+    background: #62646A;
+}
+
 /*========= Container of all page===========*/
 .container_4792px{
     width: 1440px;
