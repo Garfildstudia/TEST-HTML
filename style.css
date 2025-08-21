@@ -19,3 +19,94 @@ all width =  1440px.
     background: #FFFFFE;
     margin: 0 auto;
 }
+/*=========header ={ logo & NAV & button}==============*/
+header{
+    height: 86px;
+    width: 1440px;
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+.sub-header{
+    height: 86px;
+}
+.logo{
+    height: 45px;
+    width: 194px;
+    display: flex;
+    align-items: baseline;
+    margin: 26px 0 15px 95px;
+}
+.logo_left_part{
+    color: #001858;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.logo_right_part{
+    color: #6246EA;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.link_menu{
+    display: flex;
+    justify-content: center;
+}
+
+.link_menu ul {
+    width: 493px;
+    height: 25px;
+    display: flex;
+    gap: 50px;
+}
+
+.link_menu li {
+    text-align: center;
+}
+.link_menu a {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.search{
+    align-items: center;
+    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+}
+.button_buy_me_a_coffee{
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 4px;
+    background: #6246EA;
+    display: flex;
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.header_menu_and_button{
+    display: flex;
+    width: 756px;
+    height: 44px;
+    align-items: center;
+    gap: 50px
+}
+
