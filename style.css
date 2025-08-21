@@ -110,3 +110,9 @@ header{
     gap: 50px
 }
 
+/*========= Main =========*/
+.main_content{
+    width: 1440px;
+    height: 4271px;
+    margin: 0 auto;
+}
