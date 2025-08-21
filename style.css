@@ -116,3 +116,125 @@ header{
     height: 4271px;
     margin: 0 auto;
 }
+
+/*========= Section WRAPPERS ===========*/
+.wrapper_for_section{
+    display: flex;
+    width: 1252px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.wrapper_for_title{
+    display: flex;
+    width: 1252px;
+    height: 35px;
+    padding: 2px 0 3px 0;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    margin: 0 auto;
+}
+/*========= Section Style ===========*/
+.style_of_section_title{
+    height: 30px;
+    text-align: right;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.style_of_see_all_category_or_articles{
+    height: 25px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 4px 12px 6px 0;
+}
+.see_all_and_arrow{
+    margin-right: 7px;
+}
+
+/*========= Main =  Section presentation h = 814px=(900-86header) =========*/
+.presentation{
+    width: 1440px;
+    height: 814px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #EFF0F3;
+}
+.presentation_main_title{
+    width: 617px;
+    height: 162px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.presentation_text{
+    width: 652px;
+    height: 50px;
+    color: #9A9494;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+}
+.subscribe_field{
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    border: none;
+    margin-right: 20px;
+}
+.button_subscribe{
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.subscribe_email{
+    display: flex;
+    margin-top: 30px;
+}
+
+.presentation_text_and_subscribe{
+    width: 664px;
+    height: 345px;
+}
+.icon_learn_coding{
+    display: flex;
+    width: 470px;
+    padding: 13px 18px 11px 18px;
+    justify-content: center;
+    align-items: center;
+}
+
